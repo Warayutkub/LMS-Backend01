@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 	"sk_backend/database"
@@ -25,4 +26,5 @@ func main() {
 
 	port := os.Getenv("port")
 	log.Fatal(app.Listen(port))
+	fmt.Print("Hello")
 }
