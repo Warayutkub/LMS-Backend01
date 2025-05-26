@@ -11,6 +11,8 @@ import (
 	"github.com/joho/godotenv"
 )
 
+// db_link = "postgresql://postgres:student_sk_2568@db.okajavimvarrgxpcztqc.supabase.co:5432/postgres"
+// port = ":2568"
 func main() {
 
 	err := godotenv.Load()
